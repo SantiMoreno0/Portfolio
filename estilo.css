@@ -1,0 +1,575 @@
+body{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-size: cover;
+}
+
+
+.navegacion{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.item{
+    color: azure;
+    font-size: 20px;
+    margin-right: 15px;
+    font-weight: bolder;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.item:hover{
+    color:#becee0;
+    transition: 0.2s;
+}
+
+.container__texto{
+    color: aliceblue;
+    display: flex;
+    margin-top:20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container__typing{
+    animation: animacion 2.5s steps(40), transparente .5s step-end infinite alternate;
+    max-width: 16.9em;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 22px;
+    border-right:  2px solid;
+    height: 30px;
+    width: 100vw;
+    margin-bottom: 20px;
+}
+
+@keyframes animacion {
+    from{
+        width: 0px;
+
+    }
+}
+
+@keyframes transparente {
+    50%{
+        border-color: transparent;
+    }
+}
+
+.container__perfil{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.perfil{
+    height: 40vw;
+    max-height: 280px;
+    border-radius: 260px;
+}
+
+.sobre-mi{
+    justify-self: baseline;
+    align-self: center;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    }
+
+.container__links{
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 30%;
+    margin-left: 30px;
+}
+
+.link{
+    color:aliceblue;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+
+.container__icons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1px;
+    margin-left: 30px;
+}
+
+
+.icon{
+    color: #cbdcf8;
+    margin-bottom: 26px;
+}
+
+
+.container__titulo__skills{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.titulo__skills{
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.container__skills{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.skill{
+    height: 150px;
+    width: 150px;
+    display: grid;
+}
+
+.icon__skill{
+    font-size: 45px;
+    margin: 0 auto;
+}
+
+.hobbie{
+    height: 150px;
+    width: 150px;
+    display: grid;
+}
+
+.skill{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: aliceblue;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.icon__skill{
+    font-size: 45px;
+    color:#010d34;
+
+}
+
+.titulo__skill{
+    color: #010d34;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.container__titulo__hobbies{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.titulo__hobbies{
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+.container__hobbies{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.hobbie{
+    display: grid;
+    background: aliceblue;
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo__hobbie{
+    color: #010d34;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.icon__hobbie{
+    color:#010d34;
+    font-size: 45px;
+    margin:0 auto;
+}
+
+.container__titulo__formaciones{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.titulo__formaciones{
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container__formaciones{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.formacion{
+    background-color: #e8eef4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    height: 180px;
+    width: 380px;
+    margin: 40px;
+}
+
+.titulo__formacion{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+.one__img{
+    height: 120px;
+}
+
+.argentina__img{
+    height:140px;
+}
+
+
+.ialab__img{
+    height: 150px;
+}
+
+.container__experiencia{
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.titulo__experiencias{
+    margin-top: 90px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.experiencia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.encriptador__img{
+    height: 160px;
+}
+
+.ahorcado__img{
+    height: 160px;
+}
+
+.titulo__experiencia{
+    color: aliceblue;
+    font-size: 35px;
+    margin: 20px 0px;
+    display: inline-block;
+    width: 100vw;
+    text-align: center;
+}
+
+.container__botones{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.demo{
+    text-decoration: none;
+    color: #010d34;
+    background: white;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.repo{
+    text-decoration: none;
+    color: #010d34;
+    background: white;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.contactame{
+    color: aliceblue;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container__form{
+    margin-top: 30px;
+    display: grid;
+    width: 100%;
+}
+
+.form__input{
+    height: 20px;
+    padding: 10px;
+    font-family: inherit;
+    margin-bottom: 7px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 10px;
+    outline: none;
+}
+
+.form__input:focus{
+    border-bottom: 3px solid lightblue;
+}
+
+.form__mensaje{
+    height: 150px;
+    font-family: inherit;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    resize: none;
+    border: none;
+    outline: none;
+
+}
+
+.form__mensaje:focus{
+    border-bottom: 3px solid green;
+}
+
+.form__cta{
+    width: 100px;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: inherit;
+}
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    height: 40px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+@media(min-width: 769px) {
+    .navegacion{
+        justify-content: center;
+    }
+
+    .titulo__formacion{
+        padding: 20px;
+    }
+
+    .formacion{
+        height: 300px;
+        width: 70vw;
+        max-width: 580px;
+        max-height: 250px;
+    }
+    .one__img{
+        height: 210px;
+    }
+
+    .argentina__img{
+        height: 230px;
+    }
+    .ialab__img{
+        height: 230px;
+    }
+    .experiencia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 60vw;
+    }
+    
+    .encriptador__img{
+       height: 300px 
+    }
+    
+    .ahorcado__img{
+        height: 300px;
+    }
+    .container__links{
+        display: grid;
+    }
+    .link{
+        font-size: 25px;
+    }
+    .icon{
+        font-size: 25px;
+    }
+    .container__icons{
+        margin-left: 100px;
+    }
+    .perfil{
+        margin-left: 40px;
+    }
+}
+
+@media(min-width: 1024px) {
+
+    .sobre-mi{
+        font-size: 20px;
+        word-spacing: 10px;
+    }
+
+    .skill{
+        height: 100px;
+        width: 110px;
+        display: grid;
+    }
+
+    .titulo__skill{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .icon__skill{
+        font-size: 30px;
+        margin: 0 auto;
+    }
+
+    .hobbie{
+        height: 100px;
+        width: 100px;
+        display: grid;
+    }
+
+    .icon__hobbie{
+        font-size: 25px;
+        margin: 0 auto;
+    }
+
+    .titulo__hobbie{
+        font-size: 20px;
+    }
+
+    .container__perfil{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .link{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .icon{
+        font-size: 20px;
+    }
+
+    .container__icons{
+        margin-top: 5px;
+    }
+
+    .container__formaciones{
+        display: flex;
+        justify-content: space-around;
+    }
+    .formacion{
+        height: 200px;
+        width: 250px;
+        display: grid;
+    }
+
+    .titulo__experiencias{
+        margin-top: 90px;
+        color: white;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    .one__img{
+        height: 180px;
+        margin: 0 auto;
+    }
+    .argentina__img{
+        height: 180px;
+        margin: 0 auto;
+    }
+    .ialab__img{
+        height: 180px;
+        margin: 0 auto;
+    }
+    .titulo__formacion{
+        margin: 20px;
+        color: white;
+    }
+
+    .titulo__experiencia{
+        margin-top: 50px;
+    }
+
+    .titulo__formaciones{
+        margin-top: 50px;
+    }
+    .titulo__hobbies{
+        margin-top: 50px;
+    }
+}

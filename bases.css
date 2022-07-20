@@ -1,0 +1,9 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+}
+
+.container{
+    padding-right: 10%;
+    padding-left:10%;
+}
